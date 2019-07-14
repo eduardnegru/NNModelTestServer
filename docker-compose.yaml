@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  api-service:
+    build: .
+    volumes:
+      - .:/usr/app
+    ports:
+      - 8000:3000
